@@ -282,9 +282,7 @@ module segment_crossbar #(
                 end
             end
             
-            // ================================================================
             // Search Path: PARTITION, SPREAD, COMBINE, MAND
-            // ================================================================
             reg [PMT_WIDTH-1:0] search_key_segment;
             
             always @(*) begin
